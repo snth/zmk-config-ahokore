@@ -22,16 +22,41 @@ behaviors {
 
     combos {
     compatible = "zmk,combos";
+    combo_esc {
+        timeout-ms = <50>;
+        key-positions = <0 1>;
+        bindings = <&kp ESC>;
+        layers = <0 1 2>;
+
+    };
     combo_del {
         timeout-ms = <50>;
-        key-positions = <8 9>;
+        key-positions = <1 2>;
         bindings = <&kp DEL>;
         layers = <0 1 2>;
     };
-    combo_bspc {
+    combo_excl {
         timeout-ms = <50>;
-        key-positions = <7 8>;
-        bindings = <&kp BKSP>;
+        key-positions = <2 3>;
+        bindings = <&kp EXCL>;
+        layers = <0 1 2>;
+    };
+    combo_ampersand {
+        timeout-ms = <50>;
+        key-positions = <20 21>;
+        bindings = <&kp AMPERSAND>;
+        layers = <0 1 2>;
+    };
+    combo_grave {
+        timeout-ms = <50>;
+        key-positions = <21 22>;
+        bindings = <&kp GRAVE>;
+        layers = <0 1 2>;
+    };
+    combo_pipe {
+        timeout-ms = <50>;
+        key-positions = <22 23>;
+        bindings = <&kp PIPE>;
         layers = <0 1 2>;
     };
     combo_home {
@@ -40,26 +65,41 @@ behaviors {
         bindings = <&kp HOME>;
         layers = <0 1 2>;
     };
-    combo_tab {
+    combo_bspc {
         timeout-ms = <50>;
-        key-positions = <0 1>;
-        bindings = <&kp TAB>;
+        key-positions = <7 8>;
+        bindings = <&kp BKSP>;
         layers = <0 1 2>;
-
     };
-    combo_esc {
+    combo_end {
         timeout-ms = <50>;
-        key-positions = <1 2>;
-        bindings = <&kp ESC>;
+        key-positions = <8 9>;
+        bindings = <&kp END>;
         layers = <0 1 2>;
-
     };
-    combo_ret {
+    combo_plus {
         timeout-ms = <50>;
-        key-positions = <2 3>;
-        bindings = <&kp RET>;
+        key-positions = <25 26>;
+        bindings = <&kp MINUS>;
         layers = <0 1 2>;
-
+    };
+    combo_minus {
+        timeout-ms = <50>;
+        key-positions = <26 27>;
+        bindings = <&kp MINUS>;
+        layers = <0 1 2>;
+    };
+    combo_equal {
+        timeout-ms = <50>;
+        key-positions = <27 28>;
+        bindings = <&kp EQUAL>;
+        layers = <0 1 2>;
+    };
+    combo_semicolon {
+        timeout-ms = <50>;
+        key-positions = <28 29>;
+        bindings = <&kp SEMICOLON>;
+        layers = <0 1 2>;
     };
 };
 
