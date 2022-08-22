@@ -153,12 +153,12 @@ behaviors {
 // -----------------------------------------------------------------------------------------
 // | BT3 | BT2 | BT1 | BT0  |BTCLR|      | HOME | PGUP | PGDN | END  |
 // | DEL | RET | TAB | ESC  |     |      | LEFT |  UP  | DOWN | RIGHT|
-// |     |     |     |      |     |      |      |      |      |      |
+// | UNDO| CUT | COPY| PASTE|CTL+K|      |      |      |      |      |
 //             |     |      |     |      |      |      |
                         bindings = <
    &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1  &bt BT_SEL 0   &bt BT_CLR &trans    &kp HOME  &kp PG_UP &kp PG_DN &kp END
    &hm LALT DEL &hm LGUI RET &hm LSHFT TAB &hm LCTRL ESC  &trans     &kp BSPC  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT
-   &trans       &trans       &trans        &trans         &trans     &kp MINUS &kp EQUAL &trans    &trans    &trans
+   &kp LC(Z)    &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp LC(K)  &kp MINUS &kp EQUAL &trans    &trans    &trans
                 &trans       &trans        &trans                              &trans    &trans    &trans
                         >;
                 };
