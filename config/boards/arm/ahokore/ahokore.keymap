@@ -159,7 +159,7 @@ behaviors {
    &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1  &bt BT_SEL 0   &bt BT_CLR &trans    &kp HOME  &kp PG_UP &kp PG_DN &kp END
    &hm LALT DEL &hm LGUI RET &hm LSHFT TAB &hm LCTRL ESC  &trans     &kp BSPC  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT
    &kp LC(Z)    &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp LC(K)  &kp MINUS &kp EQUAL &trans    &trans    &trans
-                &trans       &trans        &trans                              &trans    &trans    &trans
+                &trans       &trans        &trans                              &trans    &kp SPACE &trans
                         >;
                 };
 
