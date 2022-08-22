@@ -83,15 +83,15 @@ behaviors {
 
                 sym_layer {
 // -----------------------------------------------------------------------------------------
-// |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |
-// |  !  |  @  |  #  |  $  |  %  |  ^  |  &  |  *  |  =  |  -  |
-// |  \  |  {  |  [  |  (  |  _  |  )  |  ]  |  }  |  .  |  `  |
-//             | CTL | ALT |  ENT | SPC | GUI  | CTL |
+// |  7  |  5  |  3  |  1  |  9  |  8  |  0  |  2  |  4  |  6  |
+// |  [  |  {  |  }  |  ]  |  \  | BSPC|  :  |  )  |  (  |  _  |
+// |  '  |  <  |  >  |  "  |  ;  |  -  |  =  |  /  |  .  |  ,  |
+//             |     |     |     |     |     |     |
                         bindings = <
-   &kp N1    &kp N2    &kp N3    &kp N4      &kp N5      &kp N6    &kp N7    &kp N8    &kp N9     &kp N0
-   &kp EXCL  &kp AT    &kp HASH  &kp DOLLAR  &kp PRCNT   &kp CARET &kp AMPS  &kp STAR  &kp EQUAL  &kp MINUS
-   &kp BSLH  &kp LBRC  &kp LBKT  &kp LPAR    &kp UNDER   &kp RPAR  &kp RBKT  &kp UNDER &kp DOT    &kp GRAVE
-             &trans    &trans    &trans                            &trans    &trans    &trans
+   &kp N7        &kp N5        &kp N3         &kp N1         &kp N9      &kp N8    &kp N0          &kp N2         &kp N4        &kp N6
+   &hm LALT LBKT &hm LGUI LBRC &hm LSHFT RBRC &hm LCTRL RBKT &kp BSLH    &kp BSPC  &hm RCTRL COLON &hm RSHFT RPAR &hm RGUI LPAR &hm RALT UNDER
+   &kp APOS      &kp LT        &kp GT         &kp DQT        &kp SEMI    &kp MINUS &kp EQUAL       &trans         &trans        &kp trans
+                 &trans        &trans         &trans                               &trans          &trans         &trans
                         >;
                 };
 
