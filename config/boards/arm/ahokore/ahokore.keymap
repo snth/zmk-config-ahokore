@@ -15,7 +15,7 @@ behaviors {
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";
         #binding-cells = <2>;
-        tapping_term_ms = <300>;
+        tapping_term_ms = <200>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
@@ -77,11 +77,25 @@ behaviors {
    &kp Z      &kp W      &kp F       &kp P       &kp B   &kp J &kp L       &kp U        &kp Y       &kp Q
    &hm LALT A &hm LGUI R &hm LSHFT S &hm LCTRL T &kp G   &kp M &hm RCTRL N &hm RSHFT E  &hm RGUI I  &hm RALT O
    &kp APOS   &kp X      &kp C       &kp D       &kp K   &kp V &kp H       &kp SLASH    &kp DOT     &kp COMMA
-              &kp LCTRL  &lt 2 SPACE &lt 1 TAB                 &lt 1 ENTER &kp RSHFT    &kp RALT
+              &kp LCTRL  &lt 3 SPACE &lt 1 TAB                 &lt 2 ENTER &kp RSHFT    &kp RALT
                         >;
                 };
 
                 sym_layer {
+// -----------------------------------------------------------------------------------------
+// |  &  |  %  |  #  |  !  |  `  |  *  |  ?  |  @  |  $  |  ^  |
+// |  [  |  {  |  }  |  ]  |  \  | BSPC|  :  |  )  |  (  |  _  |
+// |  '  |  <  |  >  |  "  |  ;  |  -  |  =  |  /  |  .  |  ,  |
+//             |     |     |     |     |     |     |
+                        bindings = <
+   &kp AMPERSAND &kp PERCENT   &kp HASH       &kp EXCL       &kp GRAVE   &kp STAR  &kp QUESTION    &kp AT_SIGN    &kp DOLLAR    &kp CARET
+   &hm LALT LBKT &hm LGUI LBRC &hm LSHFT RBRC &hm LCTRL RBKT &kp BSLH    &kp BSPC  &hm RCTRL COLON &hm RSHFT RPAR &hm RGUI LPAR &hm RALT UNDER
+   &kp APOS      &kp LT        &kp GT         &kp DQT        &kp SEMI    &kp MINUS &kp EQUAL       &trans         &trans        &trans
+                 &trans        &trans         &trans                               &trans          &trans         &trans
+                        >;
+                };
+
+                num_layer {
 // -----------------------------------------------------------------------------------------
 // |  7  |  5  |  3  |  1  |  9  |  8  |  0  |  2  |  4  |  6  |
 // |  [  |  {  |  }  |  ]  |  \  | BSPC|  :  |  )  |  (  |  _  |
