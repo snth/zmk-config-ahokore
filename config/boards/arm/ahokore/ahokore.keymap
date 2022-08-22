@@ -24,28 +24,41 @@ behaviors {
     compatible = "zmk,combos";
     combo_del {
         timeout-ms = <50>;
-        key-positions = <18 19>;
+        key-positions = <8 9>;
         bindings = <&kp DEL>;
-        layers = <1>;
+        layers = <0 1 2>;
     };
     combo_bspc {
         timeout-ms = <50>;
-        key-positions = <8 9>;
+        key-positions = <7 8>;
         bindings = <&kp BKSP>;
-        layers = <0 1>;
+        layers = <0 1 2>;
+    };
+    combo_home {
+        timeout-ms = <50>;
+        key-positions = <6 7>;
+        bindings = <&kp HOME>;
+        layers = <0 1 2>;
     };
     combo_tab {
         timeout-ms = <50>;
         key-positions = <0 1>;
         bindings = <&kp TAB>;
-        layers = <0>;
+        layers = <0 1 2>;
 
     };
     combo_esc {
         timeout-ms = <50>;
         key-positions = <1 2>;
         bindings = <&kp ESC>;
-        layers = <0>;
+        layers = <0 1 2>;
+
+    };
+    combo_ret {
+        timeout-ms = <50>;
+        key-positions = <2 3>;
+        bindings = <&kp RET>;
+        layers = <0 1 2>;
 
     };
 };
