@@ -64,7 +64,7 @@ behaviors {
    &kp Z      &kp W      &kp F       &kp P       &kp B   &kp J &kp L       &kp U        &kp Y       &kp Q
    &hm LALT A &hm LGUI R &hm LSHFT S &hm LCTRL T &kp G   &kp M &hm RCTRL N &hm RSHFT E  &hm RGUI I  &hm RALT O
    &kp APOS   &kp X      &kp C       &kp D       &kp K   &kp V &kp H       &kp FSLH     &kp DOT     &kp COMMA
-              &kp LCTRL  &lt 2 SPC   &lt 1 TAB                 &lt 1 ENT   &kp RSHFT    &kp RALT
+              &kp LCTRL  &lt 2 SPACE &lt 1 TAB                 &lt 1 ENT   &kp RSHFT    &kp RALT
                         >;
                 };
 
