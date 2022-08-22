@@ -115,7 +115,7 @@ behaviors {
 //             | CTL |2/SPC|1/TAB | 1/ENT| SFT | ALT |
                         bindings = <
    &kp Z      &kp W      &kp F       &kp P       &kp B   &kp J &kp L       &kp U        &kp Y       &kp Q
-   &hm LALT A &hm LGUI R &hm LSHFT S &hm LCTRL T &kp G   &kp M &hm RCTRL N &hm RSHFT E  &hm RGUI I  &hm RALT O
+   &kp A      &kp R      &kp S       &kp T       &kp G   &kp M &kp N       &kp E        &kp I       &kp O
    &kp APOS   &kp X      &kp C       &kp D       &kp K   &kp V &kp H       &kp SLASH    &kp DOT     &kp COMMA
               &kp LCTRL  &lt 3 SPACE &lt 1 TAB                 &lt 2 ENTER &kp RSHFT    &kp RALT
                         >;
@@ -131,7 +131,7 @@ behaviors {
    &kp AMPERSAND &kp PERCENT   &kp HASH       &kp EXCL       &kp GRAVE   &kp STAR  &kp QUESTION    &kp AT_SIGN    &kp DOLLAR    &kp CARET
    &hm LALT LBKT &hm LGUI LBRC &hm LSHFT RBRC &hm LCTRL RBKT &kp BSLH    &kp BSPC  &hm RCTRL COLON &hm RSHFT RPAR &hm RGUI LPAR &hm RALT UNDER
    &kp APOS      &kp LT        &kp GT         &kp DQT        &kp SEMI    &kp MINUS &kp EQUAL       &trans         &trans        &trans
-                 &trans        &trans         &trans                               &trans          &trans         &trans
+                 &trans        &trans         &trans                               &trans          &kp SPACE         &trans
                         >;
                 };
 
@@ -145,7 +145,7 @@ behaviors {
    &kp N7        &kp N5        &kp N3         &kp N1         &kp N9      &kp N8    &kp N0          &kp N2         &kp N4        &kp N6
    &hm LALT LBKT &hm LGUI LBRC &hm LSHFT RBRC &hm LCTRL RBKT &kp BSLH    &kp BSPC  &hm RCTRL COLON &hm RSHFT RPAR &hm RGUI LPAR &hm RALT UNDER
    &kp APOS      &kp LT        &kp GT         &kp DQT        &kp SEMI    &kp MINUS &kp EQUAL       &trans         &trans        &trans
-                 &trans        &trans         &trans                               &trans          &trans         &trans
+                 &trans        &kp SPACE      &trans                               &trans          &trans         &trans
                         >;
                 };
 
