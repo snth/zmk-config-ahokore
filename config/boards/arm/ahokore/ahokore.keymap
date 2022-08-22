@@ -63,8 +63,8 @@ behaviors {
                         bindings = <
    &kp Z      &kp W      &kp F       &kp P       &kp B   &kp J &kp L       &kp U        &kp Y       &kp Q
    &hm LALT A &hm LGUI R &hm LSHFT S &hm LCTRL T &kp G   &kp M &hm RCTRL N &hm RSHFT E  &hm RGUI I  &hm RALT O
-   &kp APOS   &kp X      &kp C       &kp D       &kp K   &kp V &kp H       &kp FSLH     &kp DOT     &kp COMMA
-              &kp LCTRL  &lt 2 SPACE &lt 1 TAB                 &lt 1 ENT   &kp RSHFT    &kp RALT
+   &kp APOS   &kp X      &kp C       &kp D       &kp K   &kp V &kp H       &kp SLASH    &kp DOT     &kp COMMA
+              &kp LCTRL  &lt 2 SPACE &lt 1 TAB                 &lt 1 ENT   &kp RSHFT    &kp LALT
                         >;
                 };
 
@@ -78,21 +78,21 @@ behaviors {
    &kp N1    &kp N2    &kp N3    &kp N4      &kp N5      &kp N6    &kp N7    &kp N8    &kp N9     &kp N0
    &kp EXCL  &kp AT    &kp HASH  &kp DOLLAR  &kp PRCNT   &kp CARET &kp AMPS  &kp STAR  &kp EQUAL  &kp MINUS
    &kp BSLH  &kp LBRC  &kp LBKT  &kp LPAR    &kp UNDER   &kp RPAR  &kp RBKT  &kp UNDER &kp DOT    &kp GRAVE
-   &trans    &trans    &trans    &trans      &trans      &trans
+             &trans    &trans    &trans                            &trans    &trans    &trans
                         >;
                 };
 
                 nav_layer {
 // -----------------------------------------------------------------------------------------
-// |BTCLR| RST |     |      |     |      | PGDN |  UP  | PGUP |      |
-// | BT0 |CMENU|     |      |     | HOME | LEFT | DOWN |RIGHT | END  |
+// |BTCLR| RST |     |      |     |      | HOME | PGUP | PGDN | END  |
+// | BT0 |CMENU|     | ESC  |     |      | LEFT |  UP  | DOWN | RIGHT|
 // | BT1 | BOOT|     |      |     |      |      |      |      |      |
-//             | CTL | ALT |  ENT | SPC | GUI  | CTL |
+//             |     |      |     |      |      |      |
                         bindings = <
-   &bt BT_CLR   &sys_reset  &trans  &trans &trans     &trans    &kp PG_DN &kp UP    &kp PG_UP &trans
-   &bt BT_SEL 0 &kp K_CMENU &trans  &trans &trans     &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT &kp END
-   &bt BT_SEL 1 &bootloader &trans  &trans &trans     &trans    &trans    &trans    &trans    &trans
-   &trans   &trans    &trans     &trans   &trans   &trans
+   &bt BT_CLR   &reset      &trans  &trans   &trans     &trans    &kp HOME  &kp PG_UP &kp PG_DN &kp END
+   &bt BT_SEL 0 &kp K_CMENU &trans  &kp ESC  &trans     &kp BSPC  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT
+   &bt BT_SEL 1 &bootloader &trans  &trans   &trans     &kp MINUS &kp EQUAL &trans    &trans    &trans
+                &trans      &trans  &trans                        &trans   &trans   &trans
                         >;
                 };
 
