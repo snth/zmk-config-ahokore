@@ -249,12 +249,12 @@ behaviors {
                 sym_layer {
 // -----------------------------------------------------------------------------------------
 // |  &  |  %  |  #  |  !  |  `  |  *  |  ?  |  @  |  $  |  ^  |
-// |  [  |  {  |  }  |  ]  |  \  | BSPC|  :  |  )  |  (  |  _  |
+// |  {  |  [  |  ]  |  }  |  \  | BSPC|  :  |  )  |  (  |  _  |
 // |  '  |  <  |  >  |  "  |  ;  |  -  |  =  |  /  |  .  |  ,  |
 //             |     |     |     |     |     |     |
                         bindings = <
    &kp AMPERSAND &kp PERCENT   &kp HASH       &kp EXCL       &kp GRAVE   &kp STAR  &kp QUESTION    &kp AT_SIGN     &kp DOLLAR    &kp CARET
-   &hm LALT LBKT &hm LGUI LBRC &hm LSHFT RBRC &hm LCTRL RBKT &kp BSLH    &kp BSPC  &hm RCTRL COLON &hm RSHFT RPAR  &hm RGUI LPAR &hm RALT UNDER
+   &hm LALT LBRC &hm LGUI LBKT &hm LSHFT RBKT &hm LCTRL RBRC &kp BSLH    &kp BSPC  &hm RCTRL COLON &hm RSHFT RPAR  &hm RGUI LPAR &hm RALT UNDER
    &kp APOS      &kp LT        &kp GT         &kp DQT        &kp SEMI    &kp MINUS &kp EQUAL       &trans          &trans        &trans
                  &trans        &trans         &kp TAB                              &kp ENTER       &mt RSHFT SPACE &trans
                         >;
@@ -263,12 +263,12 @@ behaviors {
                 num_layer {
 // -----------------------------------------------------------------------------------------
 // |  7  |  5  |  3  |  1  |  9  |  8  |  0  |  2  |  4  |  6  |
-// |  [  |  {  |  }  |  ]  |  \  | BSPC|  :  |  )  |  (  |  _  |
+// |  {  |  [  |  ]  |  }  |  \  | BSPC|  :  |  )  |  (  |  _  |
 // |  '  |  <  |  >  |  "  |  ;  |  -  |  =  |  /  |  .  |  ,  |
 //             |     |     |     |     |     |     |
                         bindings = <
    &kp N7        &kp N5        &kp N3         &kp N1         &kp N9      &kp N8    &kp N0          &kp N2         &kp N4        &kp N6
-   &hm LALT LBKT &hm LGUI LBRC &hm LSHFT RBRC &hm LCTRL RBKT &kp BSLH    &kp BSPC  &hm RCTRL COLON &hm RSHFT RPAR &hm RGUI LPAR &hm RALT UNDER
+   &hm LALT LBRC &hm LGUI LBKT &hm LSHFT RBKT &hm LCTRL RBRC &kp BSLH    &kp BSPC  &hm RCTRL COLON &hm RSHFT RPAR &hm RGUI LPAR &hm RALT UNDER
    &kp APOS      &kp LT        &kp GT         &kp DQT        &kp SEMI    &kp MINUS &kp EQUAL       &trans         &trans        &trans
                  &trans        &kp SPACE      &kp TAB                              &kp ENTER       &trans         &trans
                         >;
