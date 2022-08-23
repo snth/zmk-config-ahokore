@@ -29,10 +29,10 @@ behaviors {
         bindings = <&kp AMPERSAND>;
         layers = <0 1 2>;
     };
-    combo_grave {
+    combo_hash {
         timeout-ms = <50>;
         key-positions = <1 2>;
-        bindings = <&kp GRAVE>;
+        bindings = <&kp HASH>;
         layers = <0 1 2>;
     };
     combo_pipe {
@@ -47,10 +47,10 @@ behaviors {
         bindings = <&kp EXCL>;
         layers = <0 1 2>;
     };
-    combo_hash {
+    combo_grave {
         timeout-ms = <50>;
         key-positions = <2 13>;
-        bindings = <&kp HASH>;
+        bindings = <&kp GRAVE>;
         layers = <0 1 2>;
     };
     
@@ -196,7 +196,7 @@ behaviors {
     combo_end {
         timeout-ms = <50>;
         key-positions = <16 9>;
-        bindings = <&kp HOME>;
+        bindings = <&kp END>;
         layers = <0 1 2>;
     };
 
