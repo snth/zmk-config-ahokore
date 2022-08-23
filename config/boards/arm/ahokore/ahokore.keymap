@@ -142,7 +142,7 @@ behaviors {
         bindings = <&kp BKSP>;
         layers = <0 1 2>;
     };
-    combo_pgdn {o 
+    combo_pgdn {
         timeout-ms = <50>;
         key-positions = <18 19>;
         bindings = <&kp PG_DN>;
