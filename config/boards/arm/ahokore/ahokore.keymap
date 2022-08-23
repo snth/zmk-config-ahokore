@@ -189,7 +189,7 @@ behaviors {
    &kp Z      &kp W      &kp F       &kp P       &kp B   &kp J &kp L       &kp U        &kp Y       &kp Q
    &kp A      &kp R      &kp S       &kp T       &kp G   &kp M &kp N       &kp E        &kp I       &kp O
    &kp APOS   &kp X      &kp C       &kp D       &kp K   &kp V &kp H       &kp SLASH    &kp DOT     &kp COMMA
-              &kp LCTRL  &lt 3 SPACE &lt 1 TAB                 &lt 2 ENTER &kp RSHFT    &kp RALT
+              &sk LCTRL  &lt 3 SPACE &lt 1 TAB                 &lt 2 ENTER &sk RSHFT    &sk RALT
                         >;
                 };
 
@@ -200,10 +200,10 @@ behaviors {
 // |  '  |  <  |  >  |  "  |  ;  |  -  |  =  |  /  |  .  |  ,  |
 //             |     |     |     |     |     |     |
                         bindings = <
-   &kp AMPERSAND &kp PERCENT   &kp HASH       &kp EXCL       &kp GRAVE   &kp STAR  &kp QUESTION    &kp AT_SIGN    &kp DOLLAR    &kp CARET
-   &hm LALT LBKT &hm LGUI LBRC &hm LSHFT RBRC &hm LCTRL RBKT &kp BSLH    &kp BSPC  &hm RCTRL COLON &hm RSHFT RPAR &hm RGUI LPAR &hm RALT UNDER
-   &kp APOS      &kp LT        &kp GT         &kp DQT        &kp SEMI    &kp MINUS &kp EQUAL       &trans         &trans        &trans
-                 &trans        &trans         &trans                               &trans          &kp SPACE         &trans
+   &kp AMPERSAND &kp PERCENT   &kp HASH       &kp EXCL       &kp GRAVE   &kp STAR  &kp QUESTION    &kp AT_SIGN     &kp DOLLAR    &kp CARET
+   &hm LALT LBKT &hm LGUI LBRC &hm LSHFT RBRC &hm LCTRL RBKT &kp BSLH    &kp BSPC  &hm RCTRL COLON &hm RSHFT RPAR  &hm RGUI LPAR &hm RALT UNDER
+   &kp APOS      &kp LT        &kp GT         &kp DQT        &kp SEMI    &kp MINUS &kp EQUAL       &trans          &trans        &trans
+                 &trans        &trans         &trans                               &trans          &mt RSHFT SPACE &trans
                         >;
                 };
 
@@ -228,10 +228,10 @@ behaviors {
 // | UNDO| CUT | COPY| PASTE|CTL+K|      |      |      |      |      |
 //             |     |      |     |      |      |      |
                         bindings = <
-   &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1  &bt BT_SEL 0   &bt BT_CLR &trans    &kp HOME  &kp PG_UP &kp PG_DN &kp END
-   &hm LALT DEL &hm LGUI RET &hm LSHFT TAB &hm LCTRL ESC  &trans     &kp BSPC  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT
-   &kp LC(Z)    &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp LC(K)  &kp MINUS &kp EQUAL &trans    &trans    &trans
-                &trans       &trans        &trans                              &trans    &kp SPACE &trans
+   &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1  &bt BT_SEL 0   &bt BT_CLR &trans    &kp HOME  &kp PG_UP       &kp PG_DN &kp END
+   &hm LALT DEL &hm LGUI RET &hm LSHFT TAB &hm LCTRL ESC  &trans     &kp BSPC  &kp LEFT  &kp UP          &kp DOWN  &kp RIGHT
+   &kp LC(Z)    &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp LC(K)  &kp MINUS &kp EQUAL &trans          &trans    &trans
+                &trans       &trans        &trans                              &trans    &mt RSHFT SPACE &trans
                         >;
                 };
 
