@@ -130,10 +130,10 @@ behaviors {
         bindings = <&kp QUESTION>;
         layers = <0 1 2>;
     };
-    combo_equal {
+    combo_pgup {
         timeout-ms = <50>;
         key-positions = <6 7>;
-        bindings = <&kp EQUAL>;
+        bindings = <&kp PG_UP>;
         layers = <0 1 2>;
     };
     combo_minus {
@@ -142,10 +142,10 @@ behaviors {
         bindings = <&kp MINUS>;
         layers = <0 1 2>;
     };
-    combo_under {
+    combo_pgdn {
         timeout-ms = <50>;
         key-positions = <8 9>;
-        bindings = <&kp UNDER>;
+        bindings = <&kp PG_DN>;
         layers = <0 1 2>;
     };
     
@@ -156,10 +156,10 @@ behaviors {
         layers = <0 1 2>;
     };  
 
-    combo_pgup {
+    combo_rpar {
         timeout-ms = <50>;
         key-positions = <16 17>;
-        bindings = <&kp PG_UP>;
+        bindings = <&kp RPAR>;
         layers = <0 1 2>;
     };
     combo_bspc {
@@ -168,35 +168,35 @@ behaviors {
         bindings = <&kp BKSP>;
         layers = <0 1 2>;
     };
-    combo_pgdn {
+    combo_lpar {
         timeout-ms = <50>;
         key-positions = <18 19>;
-        bindings = <&kp PG_DN>;
+        bindings = <&kp LPAR>;
         layers = <0 1 2>;
     };
     
-    combo_del {
-        timeout-ms = <50>;
-        key-positions = <25 26>;
-        bindings = <&kp DEL>;
-        layers = <0 1 2>;
-    };
-    combo_rpar {
-        timeout-ms = <50>;
-        key-positions = <26 27>;
-        bindings = <&kp RPAR>;
-        layers = <0 1 2>;
-    };
     combo_colon {
         timeout-ms = <50>;
-        key-positions = <27 28>;
+        key-positions = <25 26>;
         bindings = <&kp COLON>;
         layers = <0 1 2>;
     }; 
-    combo_lpar {
+    combo_equal {
+        timeout-ms = <50>;
+        key-positions = <26 27>;
+        bindings = <&kp EQUAL>;
+        layers = <0 1 2>;
+    };
+    combo_del {
+        timeout-ms = <50>;
+        key-positions = <27 28>;
+        bindings = <&kp DEL>;
+        layers = <0 1 2>;
+    };
+    combo_under {
         timeout-ms = <50>;
         key-positions = <28 29>;
-        bindings = <&kp LPAR>;
+        bindings = <&kp UNDER>;
         layers = <0 1 2>;
     };
 
