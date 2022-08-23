@@ -105,10 +105,10 @@ behaviors {
         bindings = <&kp QUESTION>;
         layers = <0 1 2>;
     };
-    combo_plus {
+    combo_equal {
         timeout-ms = <50>;
         key-positions = <6 7>;
-        bindings = <&kp PLUS>;
+        bindings = <&kp EQUAL>;
         layers = <0 1 2>;
     };
     combo_minus {
@@ -124,10 +124,10 @@ behaviors {
         layers = <0 1 2>;
     };
     
-    combo_equal {
+    combo_plus {
         timeout-ms = <50>;
         key-positions = <15 16>;
-        bindings = <&kp EQUAL>;
+        bindings = <&kp PLUS>;
         layers = <0 1 2>;
     };
     combo_pgup {
@@ -142,7 +142,7 @@ behaviors {
         bindings = <&kp BKSP>;
         layers = <0 1 2>;
     };
-    combo_pgdn {
+    combo_pgdn {o 
         timeout-ms = <50>;
         key-positions = <18 19>;
         bindings = <&kp PG_DN>;
