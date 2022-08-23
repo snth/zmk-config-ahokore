@@ -41,6 +41,38 @@ behaviors {
         bindings = <&kp ENTER>;
         layers = <0 1 2>;
     };
+    combo_excl {
+        timeout-ms = <50>;
+        key-positions = <3 4>;
+        bindings = <&kp EXCL>;
+        layers = <0 1 2>;
+    };
+    
+    combo_lbrc {
+        timeout-ms = <50>;
+        key-positions = <10 11>;
+        bindings = <&kp LBRC>;
+        layers = <0 1 2>;
+    };
+    combo_dqt {
+        timeout-ms = <50>;
+        key-positions = <11 12>;
+        bindings = <&kp DQT>;
+        layers = <0 1 2>;
+    };
+    combo_rbrc {
+        timeout-ms = <50>;
+        key-positions = <12 13>;
+        bindings = <&kp RBRC>;
+        layers = <0 1 2>;
+    };
+    combo_bslh {
+        timeout-ms = <50>;
+        key-positions = <13 14>;
+        bindings = <&kp BSLH>;
+        layers = <0 1 2>;
+    };
+    
     combo_ampersand {
         timeout-ms = <50>;
         key-positions = <20 21>;
@@ -59,10 +91,17 @@ behaviors {
         bindings = <&kp PIPE>;
         layers = <0 1 2>;
     };
-    combo_home {
+    
+    combo_ques {
+        timeout-ms = <50>;
+        key-positions = <5 6>;
+        bindings = <&kp QUESTION>;
+        layers = <0 1 2>;
+    };
+    combo_pgup {
         timeout-ms = <50>;
         key-positions = <6 7>;
-        bindings = <&kp HOME>;
+        bindings = <&kp PG_UP>;
         layers = <0 1 2>;
     };
     combo_bspc {
@@ -71,16 +110,36 @@ behaviors {
         bindings = <&kp BKSP>;
         layers = <0 1 2>;
     };
-    combo_end {
+    combo_pgdn {
         timeout-ms = <50>;
         key-positions = <8 9>;
-        bindings = <&kp END>;
+        bindings = <&kp PG_DN>;
         layers = <0 1 2>;
     };
+    
+    combo_rpar {
+        timeout-ms = <50>;
+        key-positions = <16 17>;
+        bindings = <&kp RPAR>;
+        layers = <0 1 2>;
+    };
+    combo_minus {
+        timeout-ms = <50>;
+        key-positions = <17 18>;
+        bindings = <&kp MINUS>;
+        layers = <0 1 2>;
+    };
+    combo_lpar {
+        timeout-ms = <50>;
+        key-positions = <18 19>;
+        bindings = <&kp LPAR>;
+        layers = <0 1 2>;
+    };
+    
     combo_plus {
         timeout-ms = <50>;
         key-positions = <25 26>;
-        bindings = <&kp MINUS>;
+        bindings = <&kp PLUS>;
         layers = <0 1 2>;
     };
     combo_equal {
@@ -89,10 +148,10 @@ behaviors {
         bindings = <&kp EQUAL>;
         layers = <0 1 2>;
     };
-    combo_minus {
+    combo_colon {
         timeout-ms = <50>;
         key-positions = <27 28>;
-        bindings = <&kp MINUS>;
+        bindings = <&kp COLON>;
         layers = <0 1 2>;
     };
     combo_semicolon {
