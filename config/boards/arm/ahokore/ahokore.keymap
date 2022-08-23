@@ -117,7 +117,20 @@ behaviors {
         bindings = <&kp SEMICOLON>;
         layers = <0 1 2>;
     };
-    
+
+    combo_lt {
+        timeout-ms = <50>;
+        key-positions = <21 12>;
+        bindings = <&kp LT>;
+        layers = <0 1 2>;
+    };
+    combo_gt {
+        timeout-ms = <50>;
+        key-positions = <12 23>;
+        bindings = <&kp GT>;
+        layers = <0 1 2>;
+    };
+
     combo_at {
         timeout-ms = <50>;
         key-positions = <16 7>;
