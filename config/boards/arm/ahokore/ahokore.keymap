@@ -29,10 +29,10 @@ behaviors {
         bindings = <&kp LG(L)>;
         layers = <0 1 2>;
     };    
-    combo_gui_ctrl {
+    combo_ctrl_esc {
         timeout-ms = <50>;
         key-positions = <10 13>;
-        bindings = <&sk LC(LGUI)>;
+        bindings = <&sk LC(ESC)>;
         layers = <0 1 2>;
     };
     
