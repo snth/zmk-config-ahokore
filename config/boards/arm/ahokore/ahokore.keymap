@@ -48,22 +48,22 @@ behaviors {
         layers = <0 1 2>;
     };
     
-    combo_del {
+    combo_esc {
         timeout-ms = <50>;
         key-positions = <10 11>;
-        bindings = <&kp DEL>;
+        bindings = <&kp ESC>;
+        layers = <0 1 2>;
+    };
+    combo_tab {
+        timeout-ms = <50>;
+        key-positions = <11 12>;
+        bindings = <&kp TAB>;
         layers = <0 1 2>;
     };
     combo_enter {
         timeout-ms = <50>;
-        key-positions = <11 12>;
-        bindings = <&kp ENTER>;
-        layers = <0 1 2>;
-    };
-    combo_esc {
-        timeout-ms = <50>;
         key-positions = <12 13>;
-        bindings = <&kp ESC>;
+        bindings = <&kp ENTER>;
         layers = <0 1 2>;
 
     };
