@@ -175,10 +175,10 @@ behaviors {
         bindings = <&kp RPAR>;
         layers = <0 1 2>;
     };
-    combo_bspc {
+    combo_colon {
         timeout-ms = <50>;
         key-positions = <17 18>;
-        bindings = <&kp BKSP>;
+        bindings = <&kp COLON>;
         layers = <0 1 2>;
     };
     combo_lpar {
@@ -200,10 +200,10 @@ behaviors {
         bindings = <&kp EQUAL>;
         layers = <0 1 2>;
     };
-    combo_colon {
+    combo_bksp {
         timeout-ms = <50>;
         key-positions = <27 28>;
-        bindings = <&kp COLON>;
+        bindings = <&kp BKSP>;
         layers = <0 1 2>;
     };
     combo_under {
