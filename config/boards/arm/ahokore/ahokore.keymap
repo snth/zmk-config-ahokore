@@ -47,6 +47,12 @@ behaviors {
         bindings = <&kp EXCL>;
         layers = <0 1 2>;
     };
+    combo_hash {
+        timeout-ms = <50>;
+        key-positions = <2 13>;
+        bindings = <&kp HASH>;
+        layers = <0 1 2>;
+    };
     
     combo_enter {
         timeout-ms = <50>;
@@ -99,6 +105,12 @@ behaviors {
         layers = <0 1 2>;
     };
     
+    combo_at {
+        timeout-ms = <50>;
+        key-positions = <16 7>;
+        bindings = <&kp AT_SIGN>;
+        layers = <0 1 2>;
+    };
     combo_ques {
         timeout-ms = <50>;
         key-positions = <5 6>;
@@ -129,7 +141,8 @@ behaviors {
         key-positions = <15 16>;
         bindings = <&kp PLUS>;
         layers = <0 1 2>;
-    };
+    };  
+
     combo_pgup {
         timeout-ms = <50>;
         key-positions = <16 17>;
@@ -149,10 +162,10 @@ behaviors {
         layers = <0 1 2>;
     };
     
-    combo_at {
+    combo_del {
         timeout-ms = <50>;
         key-positions = <25 26>;
-        bindings = <&kp AT_SIGN>;
+        bindings = <&kp DEL>;
         layers = <0 1 2>;
     };
     combo_rpar {
@@ -166,13 +179,27 @@ behaviors {
         key-positions = <27 28>;
         bindings = <&kp COLON>;
         layers = <0 1 2>;
-    };
+    }; 
     combo_lpar {
         timeout-ms = <50>;
         key-positions = <28 29>;
         bindings = <&kp LPAR>;
         layers = <0 1 2>;
     };
+
+    combo_home {
+        timeout-ms = <50>;
+        key-positions = <16 19>;
+        bindings = <&kp HOME>;
+        layers = <0 1 2>;
+    };
+    combo_end {
+        timeout-ms = <50>;
+        key-positions = <16 9>;
+        bindings = <&kp HOME>;
+        layers = <0 1 2>;
+    };
+
 };
 
 };
