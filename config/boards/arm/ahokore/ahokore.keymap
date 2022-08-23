@@ -23,6 +23,19 @@ behaviors {
     combos {
     compatible = "zmk,combos";
     
+    combo_alt_tab {
+        timeout-ms = <50>;
+        key-positions = <10 13>;
+        bindings = <&kp LA(TAB)>;
+        layers = <0 1 2>;
+    };    
+    combo_alt_shift_tab {
+        timeout-ms = <50>;
+        key-positions = <0 13>;
+        bindings = <&kp LS(LA(TAB))>;
+        layers = <0 1 2>;
+    };
+    
     combo_ampersand {
         timeout-ms = <50>;
         key-positions = <0 1>;
