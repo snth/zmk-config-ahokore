@@ -48,10 +48,10 @@ behaviors {
         layers = <0 1 2>;
     };
     
-    combo_esc {
+    combo_enter {
         timeout-ms = <50>;
         key-positions = <10 11>;
-        bindings = <&kp ESC>;
+        bindings = <&kp ENTER>;
         layers = <0 1 2>;
     };
     combo_tab {
@@ -60,10 +60,10 @@ behaviors {
         bindings = <&kp TAB>;
         layers = <0 1 2>;
     };
-    combo_enter {
+    combo_esc {
         timeout-ms = <50>;
         key-positions = <12 13>;
-        bindings = <&kp ENTER>;
+        bindings = <&kp ESC>;
         layers = <0 1 2>;
 
     };
@@ -189,7 +189,7 @@ behaviors {
    &kp Z      &kp W      &kp F       &kp P       &kp B   &kp J &kp L       &kp U        &kp Y       &kp Q
    &kp A      &kp R      &kp S       &kp T       &kp G   &kp M &kp N       &kp E        &kp I       &kp O
    &kp APOS   &kp X      &kp C       &kp D       &kp K   &kp V &kp H       &kp SLASH    &kp DOT     &kp COMMA
-              &sk LCTRL  &lt 3 SPACE &lt 1 TAB                 &lt 2 ENTER &sk RSHFT    &sk RALT
+              &sk LCTRL  &lt 3 SPACE &sl 1                     &lt 2 ENTER &sk RSHFT    &sk RALT
                         >;
                 };
 
@@ -203,7 +203,7 @@ behaviors {
    &kp AMPERSAND &kp PERCENT   &kp HASH       &kp EXCL       &kp GRAVE   &kp STAR  &kp QUESTION    &kp AT_SIGN     &kp DOLLAR    &kp CARET
    &hm LALT LBKT &hm LGUI LBRC &hm LSHFT RBRC &hm LCTRL RBKT &kp BSLH    &kp BSPC  &hm RCTRL COLON &hm RSHFT RPAR  &hm RGUI LPAR &hm RALT UNDER
    &kp APOS      &kp LT        &kp GT         &kp DQT        &kp SEMI    &kp MINUS &kp EQUAL       &trans          &trans        &trans
-                 &trans        &trans         &trans                               &trans          &mt RSHFT SPACE &trans
+                 &trans        &trans         &sk TAB                              &sk ENTER       &mt RSHFT SPACE &trans
                         >;
                 };
 
@@ -217,7 +217,7 @@ behaviors {
    &kp N7        &kp N5        &kp N3         &kp N1         &kp N9      &kp N8    &kp N0          &kp N2         &kp N4        &kp N6
    &hm LALT LBKT &hm LGUI LBRC &hm LSHFT RBRC &hm LCTRL RBKT &kp BSLH    &kp BSPC  &hm RCTRL COLON &hm RSHFT RPAR &hm RGUI LPAR &hm RALT UNDER
    &kp APOS      &kp LT        &kp GT         &kp DQT        &kp SEMI    &kp MINUS &kp EQUAL       &trans         &trans        &trans
-                 &trans        &kp SPACE      &trans                               &trans          &trans         &trans
+                 &trans        &kp SPACE      &sk TAB                              &sk ENTER       &trans         &trans
                         >;
                 };
 
@@ -231,7 +231,7 @@ behaviors {
    &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1  &bt BT_SEL 0   &bt BT_CLR &trans    &kp HOME  &kp PG_UP       &kp PG_DN &kp END
    &hm LALT DEL &hm LGUI RET &hm LSHFT TAB &hm LCTRL ESC  &trans     &kp BSPC  &kp LEFT  &kp UP          &kp DOWN  &kp RIGHT
    &kp LC(Z)    &kp LC(X)    &kp LC(C)     &kp LC(V)      &kp LC(K)  &kp MINUS &kp EQUAL &trans          &trans    &trans
-                &trans       &trans        &trans                              &trans    &mt RSHFT SPACE &trans
+                &trans       &trans        &sk TAB                             &sk ENTER &mt RSHFT SPACE &trans
                         >;
                 };
 
