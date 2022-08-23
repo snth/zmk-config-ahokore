@@ -23,16 +23,22 @@ behaviors {
     combos {
     compatible = "zmk,combos";
     
-    combo_alt_tab {
+    combo_lock_screen {
         timeout-ms = <50>;
-        key-positions = <10 13>;
+        key-positions = <0 13>;
         bindings = <&kp LA(TAB)>;
         layers = <0 1 2>;
     };    
-    combo_alt_shift_tab {
+    combo_gui_ctrl {
         timeout-ms = <50>;
         key-positions = <0 13>;
-        bindings = <&kp LS(LA(TAB))>;
+        bindings = <&sk LC(LGUI)>;
+        layers = <0 1 2>;
+    };
+    combo_alt_shift {
+        timeout-ms = <50>;
+        key-positions = <35 17>;
+        bindings = <&sk RS(RALT)>;
         layers = <0 1 2>;
     };
     
