@@ -290,15 +290,15 @@ behaviors {
 
                 util_layer {
 // -----------------------------------------------------------------------------------------
-// |     | PREV| PLAY| NEXT | F11 |  F12 | MUTE |VOL_UP|VOL_DN| MUTE |
+// | LOCK| PREV| PLAY| NEXT | F11 |  F12 | HOME |VOL_UP|VOL_DN| MUTE |
 // | F7  | F5  | F3  | F1   | F9  |  F8  |  F10 |  F2  |  F4  |  F6  |
-// | BT3 | BT2 | BT1 | BT0  |BTCLR| BTCLR|  BT0 |  BT1 |  BT2 |  BT3 |
+// | BACK| DOWN| UP  | FWD  |BTCLR| BTCLR|  BT0 |  BT1 |  BT2 |  BT3 |
 //             |     |      |     |      |      |      |
                         bindings = <
-   &kp C_PAUSE  &kp C_PREV   &kp C_PP      &kp C_NEXT    &kp F11     &kp F12    &kp C_MUTE   &kp C_VOL_UP    &kp C_VOL_DN &kp C_MUTE
-   &hm LALT F7  &hm LGUI F5  &hm LSHFT F3  &hm LCTRL F1  &kp F9      &kp F8     &kp F10      &kp F2          &kp F4       &kp F6
-   &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR  &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2 &bt BT_SEL 3
-                &trans       &trans        &kp TAB                              &kp ENTER    &mt RSHFT SPACE &trans
+   &kp K_LOCK   &kp C_PREV   &kp C_PP      &kp C_NEXT    &kp F11     &kp F12    &kp C_AC_HOME &kp C_VOL_UP    &kp C_VOL_DN &kp C_MUTE
+   &hm LALT F7  &hm LGUI F5  &hm LSHFT F3  &hm LCTRL F1  &kp F9      &kp F8     &kp F10       &kp F2          &kp F4       &kp F6
+&kp K_BACK &kp K_SCROLL_DOWN &kp K_SCROLL_UP &kp K_FORWARD &kp K_AC_SEARCH &bt BT_CLR &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2 &bt BT_SEL 3
+                &trans       &trans        &kp TAB                              &kp ENTER     &mt RSHFT SPACE &trans
                         >;
                 };
 
