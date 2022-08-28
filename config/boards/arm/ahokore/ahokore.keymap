@@ -139,7 +139,7 @@ behaviors {
     };
     combo_dollar {
         timeout-ms = <50>;
-        key-positions = <7 18>;
+        key-positions = <17 8>;
         bindings = <&kp DOLLAR>;
         layers = <0 1 2>;
     };
@@ -163,7 +163,7 @@ behaviors {
     };
     combo_lpar {
         timeout-ms = <50>;
-        key-positions = <18 19>;
+        key-positions = <8 9>;
         bindings = <&kp LPAR>;
         layers = <0 1 2>;
     };
