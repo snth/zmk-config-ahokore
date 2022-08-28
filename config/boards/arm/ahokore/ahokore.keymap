@@ -54,13 +54,25 @@ behaviors {
         bindings = <&kp PIPE>;
         layers = <0 1 2>;
     };
-    combo_excl {
+    combo_grave {
         timeout-ms = <50>;
         key-positions = <3 4>;
+        bindings = <&kp GRAVE>;
+        layers = <0 1 2>;
+    };
+    combo_excl {
+        timeout-ms = <50>;
+        key-positions = <12 3>;
         bindings = <&kp EXCL>;
         layers = <0 1 2>;
     };
-    combo_grave {
+    combo_lbrc {
+        timeout-ms = <50>;
+        key-positions = <11 2>;
+        bindings = <&kp GRAVE>;
+        layers = <0 1 2>;
+    };
+    combo_rbrc {
         timeout-ms = <50>;
         key-positions = <2 13>;
         bindings = <&kp GRAVE>;
@@ -143,9 +155,15 @@ behaviors {
         bindings = <&kp DOLLAR>;
         layers = <0 1 2>;
     };
-    combo_ques {
+    combo_star {
         timeout-ms = <50>;
         key-positions = <5 6>;
+        bindings = <&kp STAR>;
+        layers = <0 1 2>;
+    };
+    combo_ques {
+        timeout-ms = <50>;
+        key-positions = <6 17>;
         bindings = <&kp QUESTION>;
         layers = <0 1 2>;
     };
