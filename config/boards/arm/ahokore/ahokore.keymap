@@ -137,16 +137,22 @@ behaviors {
         bindings = <&kp AT_SIGN>;
         layers = <0 1 2>;
     };
+    combo_dollar {
+        timeout-ms = <50>;
+        key-positions = <7 18>;
+        bindings = <&kp DOLLAR>;
+        layers = <0 1 2>;
+    };
     combo_ques {
         timeout-ms = <50>;
         key-positions = <5 6>;
         bindings = <&kp QUESTION>;
         layers = <0 1 2>;
     };
-    combo_pgup {
+    combo_rpar {
         timeout-ms = <50>;
         key-positions = <6 7>;
-        bindings = <&kp PG_UP>;
+        bindings = <&kp RPAR>;
         layers = <0 1 2>;
     };
     combo_minus {
@@ -155,10 +161,10 @@ behaviors {
         bindings = <&kp MINUS>;
         layers = <0 1 2>;
     };
-    combo_pgdn {
+    combo_lpar {
         timeout-ms = <50>;
-        key-positions = <8 9>;
-        bindings = <&kp PG_DN>;
+        key-positions = <18 19>;
+        bindings = <&kp LPAR>;
         layers = <0 1 2>;
     };
     
@@ -169,10 +175,10 @@ behaviors {
         layers = <0 1 2>;
     };  
 
-    combo_rpar {
+    combo_pgup {
         timeout-ms = <50>;
         key-positions = <16 17>;
-        bindings = <&kp RPAR>;
+        bindings = <&kp PG_UP>;
         layers = <0 1 2>;
     };
     combo_colon {
@@ -181,10 +187,10 @@ behaviors {
         bindings = <&kp COLON>;
         layers = <0 1 2>;
     };
-    combo_lpar {
+    combo_pgdn {
         timeout-ms = <50>;
         key-positions = <18 19>;
-        bindings = <&kp LPAR>;
+        bindings = <&kp PG_DN>;
         layers = <0 1 2>;
     };
     
