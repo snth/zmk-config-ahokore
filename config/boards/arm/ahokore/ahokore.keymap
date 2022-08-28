@@ -66,16 +66,16 @@ behaviors {
         bindings = <&kp EXCL>;
         layers = <0 1 2>;
     };
-    combo_lbrc {
+    combo_lbkt {
         timeout-ms = <50>;
         key-positions = <11 2>;
-        bindings = <&kp GRAVE>;
+        bindings = <&kp LBKT>;
         layers = <0 1 2>;
     };
-    combo_rbrc {
+    combo_rbkt {
         timeout-ms = <50>;
         key-positions = <2 13>;
-        bindings = <&kp GRAVE>;
+        bindings = <&kp RBKT>;
         layers = <0 1 2>;
     };
     
