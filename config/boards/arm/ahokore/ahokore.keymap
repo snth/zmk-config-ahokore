@@ -216,10 +216,10 @@ behaviors {
         bindings = <&kp LPAR>;
         layers = <0 1 2>;
     };
-    combo_under {
+    combo_underscore {
         timeout-ms = <50>;
         key-positions = <26 19>;
-        bindings = <&kp UNDER>;
+        bindings = <&kp UNDERSCORE>;
         layers = <0 1 2>;
     };
     
@@ -256,13 +256,13 @@ behaviors {
 
     combo_home {
         timeout-ms = <50>;
-        key-positions = <16 19>;
+        key-positions = <16 18>;
         bindings = <&kp HOME>;
         layers = <0 1 2>;
     };
     combo_end {
         timeout-ms = <50>;
-        key-positions = <16 9>;
+        key-positions = <16 19>;
         bindings = <&kp END>;
         layers = <0 1 2>;
     };
