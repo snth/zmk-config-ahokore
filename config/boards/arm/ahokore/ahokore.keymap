@@ -199,18 +199,6 @@ behaviors {
         layers = <0 1 2>;
     };
     
-    combo_rpar {
-        timeout-ms = <50>;
-        key-positions = <26 17>;
-        bindings = <&kp RPAR>;
-        layers = <0 1 2>;
-    };
-    combo_lpar {
-        timeout-ms = <50>;
-        key-positions = <26 18>;
-        bindings = <&kp LPAR>;
-        layers = <0 1 2>;
-    };
     combo_underscore {
         timeout-ms = <50>;
         key-positions = <26 19>;
@@ -224,10 +212,16 @@ behaviors {
         bindings = <&kp PLUS>;
         layers = <0 1 2>;
     };  
-    combo_home {
+    combo_rpar {
         timeout-ms = <50>;
         key-positions = <16 17>;
-        bindings = <&kp HOME>;
+        bindings = <&kp RPAR>;
+        layers = <0 1 2>;
+    };
+    combo_lpar {
+        timeout-ms = <50>;
+        key-positions = <16 18>;
+        bindings = <&kp LPAR>;
         layers = <0 1 2>;
     };
     combo_colon {
@@ -242,9 +236,15 @@ behaviors {
         bindings = <&kp PG_DN>;
         layers = <0 1 2>;
     };
-    combo_end {
+    combo_home {
         timeout-ms = <50>;
         key-positions = <16 19>;
+        bindings = <&kp HOME>;
+        layers = <0 1 2>;
+    };
+    combo_end {
+        timeout-ms = <50>;
+        key-positions = <17 19>;
         bindings = <&kp END>;
         layers = <0 1 2>;
     };
