@@ -23,10 +23,10 @@ behaviors {
     combos {
     compatible = "zmk,combos";
       
-    combo_pipe {
+    combo_ampersand {
         timeout-ms = <50>;
         key-positions = <0 1>;
-        bindings = <&kp PIPE>;
+        bindings = <&kp AMPERSAND>;
         layers = <0 1 2>;
     };
     combo_grave {
@@ -35,10 +35,10 @@ behaviors {
         bindings = <&kp GRAVE>;
         layers = <0 1 2>;
     };
-    combo_excl {
+    combo_pipe {
         timeout-ms = <50>;
         key-positions = <2 3>;
-        bindings = <&kp EXCL>;
+        bindings = <&kp PIPE>;
         layers = <0 1 2>;
     };
     combo_tilde {
@@ -48,7 +48,7 @@ behaviors {
         layers = <0 1 2>;
     };
 
-    combo_ampersand {
+    combo_ampersand2 {
         timeout-ms = <50>;
         key-positions = <0 13>;
         bindings = <&kp AMPERSAND>;
@@ -180,10 +180,10 @@ behaviors {
         bindings = <&kp STAR>;
         layers = <0 1 2>;
     };
-    combo_ques {
+    combo_plus {
         timeout-ms = <50>;
         key-positions = <6 7>;
-        bindings = <&kp QUESTION>;
+        bindings = <&kp PLUS>;
         layers = <0 1 2>;
     };
     combo_minus {
@@ -206,10 +206,10 @@ behaviors {
         layers = <0 1 2>;
     };
 
-    combo_plus {
+    combo_bksp {
         timeout-ms = <50>;
         key-positions = <15 16>;
-        bindings = <&kp PLUS>;
+        bindings = <&kp BKSP>;
         layers = <0 1 2>;
     };  
     combo_rpar {
@@ -261,10 +261,10 @@ behaviors {
         bindings = <&kp EQUAL>;
         layers = <0 1 2>;
     };
-    combo_bksp {
+    combo_underscore2 {
         timeout-ms = <50>;
         key-positions = <27 28>;
-        bindings = <&kp BKSP>;
+        bindings = <&kp UNDERSCORE>;
         layers = <0 1 2>;
     };
     combo_semicolon {
