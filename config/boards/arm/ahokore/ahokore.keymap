@@ -29,10 +29,10 @@ behaviors {
         bindings = <&kp AMPERSAND>;
         layers = <0 1 2>;
     };
-    combo_grave {
+    combo_hash {
         timeout-ms = <50>;
         key-positions = <1 2>;
-        bindings = <&kp GRAVE>;
+        bindings = <&kp HASH>;
         layers = <0 1 2>;
     };
     combo_pipe {
@@ -60,7 +60,7 @@ behaviors {
         bindings = <&kp PERCENT>;
         layers = <0 1 2>;
     };
-    combo_hash {
+    combo_hash2 {
         timeout-ms = <50>;
         key-positions = <2 13>;
         bindings = <&kp HASH>;
@@ -92,10 +92,10 @@ behaviors {
         bindings = <&kp ESC>;
         layers = <0 1 2>;
     };
-    combo_bslh {
+    combo_grave {
         timeout-ms = <50>;
         key-positions = <13 14>;
-        bindings = <&kp BSLH>;
+        bindings = <&kp GRAVE>;
         layers = <0 1 2>;
     };
     
@@ -167,7 +167,7 @@ behaviors {
         bindings = <&kp DOLLAR>;
         layers = <0 1 2>;
     };
-    combo_caret {
+    combo_caret2 {
         timeout-ms = <50>;
         key-positions = <16 9>;
         bindings = <&kp CARET>;
@@ -192,14 +192,14 @@ behaviors {
         bindings = <&kp MINUS>;
         layers = <0 1 2>;
     };
-    combo_pgup {
+    combo_caret {
         timeout-ms = <50>;
         key-positions = <8 9>;
-        bindings = <&kp PG_UP>;
+        bindings = <&kp CARET>;
         layers = <0 1 2>;
     };
     
-    combo_underscore {
+    combo_underscore2 {
         timeout-ms = <50>;
         key-positions = <26 19>;
         bindings = <&kp UNDERSCORE>;
@@ -230,10 +230,10 @@ behaviors {
         bindings = <&kp COLON>;
         layers = <0 1 2>;
     };
-    combo_pgdn {
+    combo_underscore {
         timeout-ms = <50>;
         key-positions = <18 19>;
-        bindings = <&kp PG_DN>;
+        bindings = <&kp UNDERSCORE>;
         layers = <0 1 2>;
     };
     combo_home {
@@ -261,10 +261,10 @@ behaviors {
         bindings = <&kp EQUAL>;
         layers = <0 1 2>;
     };
-    combo_underscore2 {
+    combo_bslh {
         timeout-ms = <50>;
         key-positions = <27 28>;
-        bindings = <&kp UNDERSCORE>;
+        bindings = <&kp BSLH>;
         layers = <0 1 2>;
     };
     combo_semicolon {
