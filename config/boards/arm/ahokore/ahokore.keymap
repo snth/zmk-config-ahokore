@@ -277,7 +277,7 @@ behaviors {
     combo_bslh {
         timeout-ms = <50>;
         key-positions = <28 29>;
-        bindings = <&kp bslh>;
+        bindings = <&kp BSLH>;
         layers = <0 1 2>;
     };
 
