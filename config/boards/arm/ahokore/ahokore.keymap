@@ -224,9 +224,15 @@ behaviors {
         layers = <0 1 2>;
     };
     
-    combo_home {
+    combo_home2 {
         timeout-ms = <50>;
         key-positions = <6 18>;
+        bindings = <&kp HOME>;
+        layers = <0 1 2>;
+    };
+    combo_home {
+        timeout-ms = <50>;
+        key-positions = <6 19>;
         bindings = <&kp HOME>;
         layers = <0 1 2>;
     };
