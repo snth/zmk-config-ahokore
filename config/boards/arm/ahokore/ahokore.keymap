@@ -35,16 +35,16 @@ behaviors {
         bindings = <&kp HASH>;
         layers = <0 1 2>;
     };
-    combo_pipe {
+    combo_excl {
         timeout-ms = <50>;
         key-positions = <2 3>;
-        bindings = <&kp PIPE>;
+        bindings = <&kp EXCL>;
         layers = <0 1 2>;
     };
-    combo_bslh {
+    combo_pipe {
         timeout-ms = <50>;
         key-positions = <3 4>;
-        bindings = <&kp BSLH>;
+        bindings = <&kp PIPE>;
         layers = <0 1 2>;
     };
 
@@ -180,16 +180,16 @@ behaviors {
         bindings = <&kp STAR>;
         layers = <0 1 2>;
     };
-    combo_plus {
+    combo_question {
         timeout-ms = <50>;
         key-positions = <6 7>;
-        bindings = <&kp PLUS>;
+        bindings = <&kp question>;
         layers = <0 1 2>;
     };
-    combo_minus {
+    combo_plus {
         timeout-ms = <50>;
         key-positions = <7 8>;
-        bindings = <&kp MINUS>;
+        bindings = <&kp PLUS>;
         layers = <0 1 2>;
     };
     combo_pgup {
@@ -211,10 +211,10 @@ behaviors {
         bindings = <&kp COLON>;
         layers = <0 1 2>;
     };
-    combo_esc2 {
+    combo_minus {
         timeout-ms = <50>;
         key-positions = <17 18>;
-        bindings = <&kp ESC>;
+        bindings = <&kp MINUS>;
         layers = <0 1 2>;
     };
     combo_pgdn {
@@ -274,10 +274,10 @@ behaviors {
         bindings = <&kp TILDE>;
         layers = <0 1 2>;
     };
-    combo_semicolon {
+    combo_bslh {
         timeout-ms = <50>;
         key-positions = <28 29>;
-        bindings = <&kp SEMICOLON>;
+        bindings = <&kp bslh>;
         layers = <0 1 2>;
     };
 
