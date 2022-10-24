@@ -41,10 +41,10 @@ behaviors {
         bindings = <&kp EXCL>;
         layers = <0 1 2>;
     };
-    combo_pipe {
+    combo_bslh {
         timeout-ms = <50>;
         key-positions = <3 4>;
-        bindings = <&kp PIPE>;
+        bindings = <&kp BSLH>;
         layers = <0 1 2>;
     };
 
@@ -91,10 +91,10 @@ behaviors {
         bindings = <&kp RPAR>;
         layers = <0 1 2>;
     };
-    combo_semi {
+    combo_pipe {
         timeout-ms = <50>;
         key-positions = <13 14>;
-        bindings = <&kp SEMI>;
+        bindings = <&kp PIPE>;
         layers = <0 1 2>;
     };
     
@@ -280,10 +280,10 @@ behaviors {
         bindings = <&kp TILDE>;
         layers = <0 1 2>;
     };
-    combo_bslh {
+    combo_semi {
         timeout-ms = <50>;
         key-positions = <28 29>;
-        bindings = <&kp BSLH>;
+        bindings = <&kp SEMI>;
         layers = <0 1 2>;
     };
 
